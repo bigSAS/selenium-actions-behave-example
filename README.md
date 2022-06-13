@@ -5,6 +5,19 @@
 * behave
 * selenium-actions
 
+## Python env and dependencies
+
+```sh
+# create env
+> python -m venv env
+# activate env mac/linux
+>. ./env/bin/activate
+# activate env windows
+> env/Scripts/activate
+# install dependencies inside env
+(env) > pip install -r requirements.txt
+```
+
 ## Run tests
 
 Run tests with tag `@saskodzi` with HTML report in `reports/behave-report.html`
