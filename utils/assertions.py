@@ -4,7 +4,8 @@ from seleniumactions.actions import Actions
 log = logging.getLogger('ASSERTIONS')
 
 
-def assert_condition(actions: Actions, condition: object, timeout: str = None, explicit_timeout: int = None, message: str = None):
+def assert_condition(actions: Actions, condition: object,
+                     timeout: str = None, explicit_timeout: int = None, message: str = None):
     """
     Opakowuje actions.wait_for w try/except + fail msg
     """

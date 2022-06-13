@@ -65,7 +65,6 @@ def actions(context):
     return context.actions
 
 
-
 def before_tag(context, tag):
     # ! for each scenario taggerd with @web we do Dependency Injection with actions object
     if tag == "web":
