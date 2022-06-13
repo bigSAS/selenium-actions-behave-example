@@ -28,7 +28,7 @@ Run tests with tag `@saskodzi` with HTML report in `reports/behave-report.html`
 
 Example configuration
 
-```json
+```jsonc
 // config.yours.json
 // all timeouts are in seconds (float)
 {
