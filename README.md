@@ -5,6 +5,12 @@
 * behave
 * selenium-actions
 
+## Run tests
+
+Run tests with tag `@saskodzi` with HTML report in `reports/behave-report.html`
+
+`behave --tags=saskodzi -f html -o reports/behave-report.html -f pretty`
+
 ## Configuration
 
 Example configuration

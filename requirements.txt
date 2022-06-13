@@ -13,7 +13,7 @@ pycparser==2.21
 pyOpenSSL==22.0.0
 PySocks==1.7.1
 selenium==4.2.0
-selenium-actions==0.4.0
+selenium-actions==1.0.1
 six==1.16.0
 sniffio==1.2.0
 sortedcontainers==2.4.0
