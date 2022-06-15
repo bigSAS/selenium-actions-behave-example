@@ -77,11 +77,3 @@ export CONFIG_FILE=config.yours.json
 ```
 
 When `CONFIG_FILE` is not set, environment.py is looking for `config.local.json` file.
-
-
-## Flake8
-
-Run lint
-```sh
-flake8 --ignore=E701,E401,E704,F403 --max-line-length=120 --exclude=__init__.py,env/
-```
